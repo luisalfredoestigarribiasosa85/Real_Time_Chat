@@ -1,42 +1,42 @@
-# Real_Time_Chat
-**Chat en Tiempo Real con Express.js, MongoDB y JavaScript**
+#Real_Time_Chat
+**Real Time Chat with Express.js, MongoDB and JavaScript**
 
-Este proyecto es una aplicación de chat en tiempo real que utiliza Express.js como backend, MongoDB como base de datos y JavaScript para el frontend. Permite a los usuarios enviar mensajes en tiempo real, que se almacenan en una base de datos y se muestran instantáneamente en la interfaz del usuario.
+This project is a real-time chat application that uses Express.js as the backend, MongoDB as the database, and JavaScript for the frontend. It allows users to send messages in real time, which are stored in a database and displayed instantly on the user interface.
 
-### Funcionalidades
+### Features
 
-- **Envío y Recepción de Mensajes:** Los usuarios pueden enviar mensajes ingresando su nombre y el mensaje en la interfaz de usuario. Los mensajes se envían al servidor y se muestran instantáneamente en la ventana del chat de todos los usuarios conectados.
+- **Sending and Receiving Messages:** Users can send messages by entering their name and the message in the user interface. Messages are sent to the server and instantly displayed in the chat window of all connected users.
 
-- **Almacenamiento en Base de Datos:** Todos los mensajes enviados se almacenan en una base de datos MongoDB, lo que permite recuperar el historial de mensajes incluso después de recargar la página.
+- **Database Storage:** All sent messages are stored in a MongoDB database, allowing message history to be retrieved even after reloading the page.
 
-- **Notificación de Nuevos Mensajes:** Cuando se recibe un nuevo mensaje, se muestra una notificación visual en la interfaz de usuario y se reproduce un sonido de alerta para alertar al usuario sobre la llegada de un nuevo mensaje.
+- **New Message Notification:** When a new message is received, a visual notification is displayed on the user interface and an alert sound is played to alert the user about the arrival of a new message.
 
-### Tecnologías Utilizadas
+### Used technology
 
-- **Express.js:** Para el backend del servidor y manejar las solicitudes HTTP.
-- **MongoDB:** Como base de datos para almacenar los mensajes de chat.
-- **JavaScript (con jQuery):** Para el frontend y la interactividad del usuario.
-- **HTML/CSS:** Para la estructura y el estilo de la interfaz de usuario.
+- **Express.js:** For the server backend and handle HTTP requests.
+- **MongoDB:** As a database to store chat messages.
+- **JavaScript (with jQuery):** For the frontend and user interactivity.
+- **HTML/CSS:** For the structure and style of the user interface.
 
-### Instrucciones de Uso
+### Instructions for use
 
-1. **Instalación de Dependencias:**
-   - Ejecuta `npm install` en el directorio del proyecto para instalar todas las dependencias necesarias.
+1. **Installation of Dependencies:**
+   - Run `npm install` in the project directory to install all necessary dependencies.
 
-2. **Configuración de la Base de Datos:**
-   - Configura la URL de conexión a MongoDB en el archivo `server.mjs`.
+2. **Database Configuration:**
+   - Configure the MongoDB connection URL in the `server.mjs` file.
 
-3. **Iniciar el Servidor:**
-   - Ejecuta `npm start` para iniciar el servidor. La aplicación estará disponible en `http://localhost:3000`.
+3. **Start the Server:**
+   - Run `npm start` to start the server. The application will be available at `http://localhost:3000`.
 
-4. **Uso de la Aplicación:**
-   - Abre el navegador y visita `http://localhost:3000` para acceder a la interfaz de chat.
-   - Ingresa tu nombre y el mensaje que deseas enviar, luego presiona el botón "Enviar". Los mensajes se mostrarán en tiempo real para todos los usuarios conectados.
+4. **Use of the Application:**
+   - Open the browser and visit `http://localhost:3000` to access the chat interface.
+   - Enter your name and the message you want to send, then press the "Send" button. Messages will be displayed in real time for all connected users.
 
-### Notas Adicionales
+### Additional notes
 
-- Este proyecto utiliza CORS para permitir solicitudes desde cualquier origen, por lo que es importante tener en cuenta la seguridad al implementar en un entorno de producción.
+- This project uses CORS to allow requests from any source, so it is important to consider security when deploying to a production environment.
 
-- La funcionalidad de notificación de nuevos mensajes puede variar según el navegador y su configuración de permisos para mostrar notificaciones.
+- New message notification functionality may vary depending on the browser and its permission settings for displaying notifications.
 
-¡Disfruta de tu experiencia de chat en tiempo real! Si tienes alguna pregunta o problema, no dudes en consultar la documentación o contactar a los desarrolladores. ¡Feliz chateo!
+Enjoy your real-time chat experience! If you have any questions or problems, feel free to consult the documentation or contact the developers. Happy chatting!
