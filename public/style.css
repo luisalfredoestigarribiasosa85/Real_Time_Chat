@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .container {
-    background-color: #afa9ff;
+    background: linear-gradient(0deg, #385886 0%, #ffffff 100%);
+    border-radius: 10px;
+}
+.separate {
+    gap: 290px;
 }
